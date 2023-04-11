@@ -19,7 +19,7 @@ FONT = pygame.font.SysFont("Times New Roman", 36)
 
 game = logic.Connect4()
 AI_PLAYER = logic.AI()
-AI_PLAYER.populate()
+AI_PLAYER.populate(True)
 
 TOTAL_CELLS = game.cells
 
