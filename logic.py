@@ -329,6 +329,3 @@ class AI() :
         print("Import done")
 
         print(self.q["(2, (0, 1, 0, 2, 0, 2, 2, 0, 1, 2, 1, 2, 0, 1, 1, 1, 2, 1, 1, 2), (-4, 4))"] == 0.08698737399252718)
-
-new_ai = AI()
-new_ai.populate(True)
